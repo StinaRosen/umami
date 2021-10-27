@@ -1,0 +1,18 @@
+#e3b2d8 Ljusrosa
+
+#e4628d Mörkrosa
+
+#0b5369 Petrol
+
+#fffd70 Gul
+
+#ffbd59 Orange
+
+#c6d2ed Blått
+
+Heebo
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap" rel="stylesheet">
+
+<

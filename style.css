@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'peace_sansregular';
+    src: url('peace_sans-webfont.eot');
+    src: url('peace_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('peace_sans-webfont.woff2') format('woff2'),
+         url('fonts/peace_sans-webfont.woff') format('woff'),
+         url('peace_sans-webfont.ttf') format('truetype'),
+         url('peace_sans-webfont.svg#peace_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	box-sizing: border-box;
+	font-size:16px;
+}
+
+h1 {
+	font-family: 'peace_sansregular';
+}
+
+h2 {
+	font-family: 'peace_sansregular';
+}
+
+body {
+	font-family: 'Heebo', sans-serif;
+}
+header {
+	max-height: 20vh;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	padding: 2px 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo img
+{
+	max-height: 50px;
+}
+
+nav ul {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+nav ul li a {
+	font-family: 'Heebo', sans-serif;
+	color:  #ffffff;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+
+nav ul li a:hover {
+	color:  rgba(255,255,255,0.6);
+}
+
+
+.banner {
+	height: 50vh;
+	width: 100%;
+}
+
+.home {
+	background-color: #e3b2d8;
+}
+
+.team {
+	background-color: #ffbd59;
+	height: 100vh;
+}
+
+
+.banner h1 {
+	font-size: 4rem;
+	text-align: center;
+	margin: auto;
+	padding-top: 15vh;
+}
+
+.textblock {
+	padding: 40px 40px;
+}
+
+.textblock p {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	
+}
+	
