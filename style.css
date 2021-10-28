@@ -24,9 +24,6 @@ h1 {
 	font-family: 'peace_sansregular';
 }
 
-h2 {
-	font-family: 'peace_sansregular';
-}
 
 body {
 	font-family: 'Heebo', sans-serif;
@@ -82,10 +79,12 @@ nav ul li a:hover {
 }
 
 .team {
-	background-color: #ffbd59;
-	height: 100vh;
+	background-color: #c6d2ed;
 }
 
+.podd {
+	background-color: #ffbd59;
+}
 
 .banner h1 {
 	font-size: 4rem;
@@ -96,13 +95,18 @@ nav ul li a:hover {
 
 .textblock {
 	padding: 40px 40px;
+	max-width: 100ch;
+	margin: auto;
 }
 
 .textblock p {
-	font-size: 1.5rem;
+	font-size: 1.2em;
 	text-align: center;
-	margin: auto;
 	padding: 20px;
 	
 }
 	
+.textblock h2 {
+	font-family: 'Heebo', sans-serif;
+	text-align: center;
+}

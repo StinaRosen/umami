@@ -74,6 +74,7 @@ nav ul li a:hover {
 
 .textblock {
     padding: 5px 40px;
+    max-width: 50ch;
 }
 
 .textblock p {
